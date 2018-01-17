@@ -1,0 +1,13 @@
+---
+title: "Example bookdown Citations"
+date: "`r Sys.Date()`"
+output: bookdown::html_document2
+bibliography: ["references.bib"]
+biblio-style: apalike2
+csl: apa.csl
+link-citations: yes
+---
+
+Here is some filler text [@standards]. And here is some more filler text [@standards].
+
+# References
