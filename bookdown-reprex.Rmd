@@ -4,10 +4,11 @@ date: "`r Sys.Date()`"
 output: bookdown::html_document2
 bibliography: ["references.bib"]
 biblio-style: apalike2
+citation-abbreviations: abbrev.json
 csl: apa.csl
 link-citations: yes
 ---
 
-Here is some filler text [@standards]. And here is some more filler text [@standards].
+Here is some filler text [@standards]. And here is some more filler text [@standards]. Here I can hack something together [AERA et al., -@standards].
 
 # References
